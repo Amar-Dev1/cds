@@ -64,12 +64,12 @@ const HomePage: React.FC = () => {
   return (
     <div>
       {/* Hero Section */}
-      <section className="bg-green-700 text-white">
+      <section className="bg-sky-700 text-white">
         <div className="max-w-screen-xl mx-auto px-4 py-20 sm:px-6 lg:px-8 lg:py-32 text-center">
           <h1 className="text-4xl font-extrabold tracking-tight sm:text-5xl lg:text-6xl">
             {text.homeHeroTitle}
           </h1>
-          <p className="mt-6 max-w-3xl mx-auto text-xl text-green-200">
+          <p className="mt-6 max-w-3xl mx-auto text-xl text-sky-200">
             {text.homeHeroSubtitle}
           </p>
           <div className="mt-10 max-w-sm mx-auto sm:max-w-none sm:flex sm:justify-center">
@@ -82,7 +82,7 @@ const HomePage: React.FC = () => {
               </Link>
               <Link
                 to="/contact"
-                className="flex items-center justify-center px-4 py-3 border border-transparent text-base font-medium rounded-md shadow-sm text-white bg-green-600 hover:bg-green-500 sm:px-8"
+                className="flex items-center justify-center px-4 py-3 border border-transparent text-base font-medium rounded-md shadow-sm text-white bg-sky-600 hover:bg-sky-500 sm:px-8"
               >
                 {text.homeBtnContact}
               </Link>

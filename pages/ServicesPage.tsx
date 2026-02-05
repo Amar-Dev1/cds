@@ -20,11 +20,11 @@ const ServicesPage: React.FC = () => {
         </div>
 
         <div className="mt-20 space-y-12">
-          {Object.entries(text.services).map(([sector, subSectors]) => (
+          {Object.entries(text.services).map(([sector, subSectors]: any) => (
             <div key={sector} className="bg-gray-50 p-8 rounded-lg shadow-sm">
               <h3 className="text-2xl font-bold text-gray-900">{sector}</h3>
               <ul className="mt-6 list-disc list-inside space-y-3">
-                {subSectors.map((subSector, index) => (
+                {subSectors.map((subSector: any, index: any) => (
                   <li key={index} className="text-lg text-gray-600">
                     {subSector}
                   </li>

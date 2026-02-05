@@ -1,6 +1,8 @@
 import React from "react";
 import { useLanguage } from "../contexts/LanguageContext";
 import { data } from "../data/placeholderData";
+// @ts-ignore
+import whoWeAreImg from "../data/whoWeAre.jpg";
 
 const AboutPage: React.FC = () => {
   const { lang } = useLanguage();
@@ -52,7 +54,7 @@ const AboutPage: React.FC = () => {
             <div className="order-1 md:order-2">
               <img
                 className="rounded-lg shadow-xl"
-                src="https://picsum.photos/600/400?grayscale"
+                src={whoWeAreImg}
                 alt="Team working"
               />
             </div>
