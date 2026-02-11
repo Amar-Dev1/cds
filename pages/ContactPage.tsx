@@ -36,7 +36,7 @@ const ContactPage: React.FC = () => {
               </div>
               <h3 className="text-2xl font-bold text-gray-900 mt-10">{text.contactDetailsTitle}</h3>
               <div className="mt-6 space-y-4 text-gray-600">
-                <p><strong>{text.contactEmail}</strong> dawalbait1964@gmail.com</p>
+                <p><strong>{text.contactEmail}</strong> info@csd.org</p>
                 <p><strong>{text.contactPhone1}</strong> +249966110442</p>
                 <p><strong>{text.contactPhone2}</strong> +249115760370</p>
               </div>

@@ -5,3 +5,10 @@ export interface NewsArticle {
   content: string;
   image_url: string | null;
 }
+
+export interface Resource {
+  _id: string;
+  title: string;
+  pdfUrl: string;
+  coverImageUrl?: string;
+}

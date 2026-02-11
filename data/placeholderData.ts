@@ -47,6 +47,7 @@ interface Translations {
   contactPlannedHQText: string;
   contactDetailsTitle: string;
   contactEmail: string;
+  contactEmailEmployee: string;
   contactPhone1: string;
   contactPhone2: string;
   contactPartnershipTitle: string;
@@ -183,7 +184,8 @@ export const data: Record<"ar" | "en", Translations> = {
     contactPlannedHQ: "المقر المخطط له",
     contactPlannedHQText: "الخرطوم، السودان",
     contactDetailsTitle: "تفاصيل الاتصال",
-    contactEmail: "البريد الإلكتروني:",
+    contactEmail: "البريد الإلكتروني العام:",
+    contactEmailEmployee: "بريد الموظفين:",
     contactPhone1: "الهاتف ١:",
     contactPhone2: "الهاتف ٢:",
     contactPartnershipTitle: "معلومات الشراكة",
@@ -196,12 +198,11 @@ export const data: Record<"ar" | "en", Translations> = {
     newsError: "فشل تحميل الأخبار. يرجى المحاولة مرة أخرى لاحقًا.",
     newsEmpty: "لا توجد أخبار حاليًا.",
     footerMotto:
-      "مركز استراتيجيات التنمية - مواجهة التحديات الجذرية من أجل مستقبل أفضل في السودان.",
+      "مركز استراتيجيات التنمية - مواجهة التحديات الجذرية من أجل مستقبل أفضل.",
     footerNav: "التنقل",
     footerSupport: "الدعم",
     footerContact: "اتصل بنا",
     footerRights: `جميع الحقوق محفوظة © ${new Date().getFullYear()} مركز استراتيجيات التنمية.`,
-   
   },
   en: {
     navHome: "Home",
@@ -321,7 +322,8 @@ export const data: Record<"ar" | "en", Translations> = {
     contactPlannedHQ: "Planned Headquarters",
     contactPlannedHQText: "Khartoum, Sudan",
     contactDetailsTitle: "Contact Details",
-    contactEmail: "Email:",
+    contactEmail: "General Email:",
+    contactEmailEmployee: "Employee Email:",
     contactPhone1: "Phone 1:",
     contactPhone2: "Phone 2:",
     contactPartnershipTitle: "Partnership Information",
@@ -334,7 +336,7 @@ export const data: Record<"ar" | "en", Translations> = {
     newsError: "Failed to load news articles. Please try again later.",
     newsEmpty: "No news articles found.",
     footerMotto:
-      "Centre for Development Strategies - Addressing root challenges for a better future in Sudan.",
+      "Centre for Development Strategies - Addressing root challenges for a better human future.",
     footerNav: "Navigation",
     footerSupport: "Support",
     footerContact: "Contact Us",
